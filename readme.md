@@ -19,7 +19,7 @@ A [Flask](https://flask.palletsprojects.com/en/stable/)-based web application to
 
 ```
 https://github.com/k-gajjar-365/Flask-Movie-Collection-App.git
-cd flask-movie-app
+cd .\Flask Movie Collection App\
 ```
 ### 2. Install dependencies
 
