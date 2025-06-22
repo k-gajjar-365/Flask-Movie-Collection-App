@@ -18,7 +18,7 @@ A [Flask](https://flask.palletsprojects.com/en/stable/)-based web application to
 ### 1. Clone the repository
 
 ```
-git clone https://github.com/k-gajjar-365/flask-movie-app.git
+https://github.com/k-gajjar-365/Flask-Movie-Collection-App.git
 cd flask-movie-app
 ```
 ### 2. Install dependencies
