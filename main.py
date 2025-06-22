@@ -85,9 +85,9 @@ def home():
     movie_list = result.scalars().all()
 
     # Re-rank movies based on current rating order
-    for rank, movie in enumerate(movie_list, start=1):
-        movie.ranking = rank
-        db.session.commit()
+    for i in range(len(movie_list)):
+        movie_list[i].ranking = len(movie_list) - i
+    db.session.commit()
 
     return render_template("index.html", movie=movie_list)
 
